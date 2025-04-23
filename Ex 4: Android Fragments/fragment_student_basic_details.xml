@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StudentBasicDetails">
+    <TextView
+        android:id="@+id/tvBasicDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Basic Details"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+    <TextView
+        android:id="@+id/tvRegisterNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Register No." />
+    <EditText
+        android:id="@+id/etRegisterNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:hint="Register Number"
+        android:inputType="textPersonName" />
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="125dp"
+        android:text="Name" />
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="125dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName" />
+    <TextView
+        android:id="@+id/tvDepartment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:text="Department" />
+    <EditText
+        android:id="@+id/etDepartment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="200dp"
+        android:ems="10"
+        android:hint="Department"
+        android:inputType="textPersonName" />
+</FrameLayout>

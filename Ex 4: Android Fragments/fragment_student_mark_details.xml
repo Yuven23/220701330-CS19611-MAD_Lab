@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StudentMarkDetails">
+    <TextView
+        android:id="@+id/tvBasicDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mark Details"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+    <TextView
+        android:id="@+id/tvSSLC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="S.S.L.C." />
+    <EditText
+        android:id="@+id/etSSLC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:hint="S.S.L.C. Mark"
+        android:inputType="textPersonName" />
+    <TextView
+        android:id="@+id/tvHSc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="125dp"
+        android:text="H.Sc." />
+    <EditText
+        android:id="@+id/etHSC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="125dp"
+        android:ems="10"
+        android:hint="H.Sc. Mark"
+        android:inputType="textPersonName" />
+    <TextView
+        android:id="@+id/tvUG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:text="U.G." />
+    <EditText
+        android:id="@+id/etUG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="200dp"
+        android:ems="10"
+        android:hint="U.G. C.G.P.A."
+        android:inputType="textPersonName" />
+</FrameLayout>
