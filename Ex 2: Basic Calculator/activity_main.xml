@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter value 1: "
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"/>
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/input1"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter value 2: "
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="150dp"/>
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/input2"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="150dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result: "
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="250dp"/>
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/output"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="250dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:id="@+id/addbutton"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="350dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:id="@+id/subbutton"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="350dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="*"
+        android:id="@+id/mulbutton"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="350dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="/"
+        android:id="@+id/divbutton"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="350dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="%"
+        android:id="@+id/modbutton"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="400dp"/>
+<!--    <Button-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="="-->
+<!--        android:id="@+id/eqbutton"-->
+<!--        android:layout_marginLeft="120dp"-->
+<!--        android:layout_marginTop="400dp"/>-->
+
+
+
+</RelativeLayout>
